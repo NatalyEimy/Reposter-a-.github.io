@@ -1,0 +1,90 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff2e6;
+    text-align: center;
+}
+
+header {
+    background-color:purple;
+    color: white;
+    padding: 20px;
+    font-family: Lucida Calligraphy
+}
+h2{
+    font-family: Showcard Gothic
+}
+div{
+    font-family: Lucida Handwriting
+}
+
+nav {
+    padding: 10px;
+    color: black
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-family: Showcard Gothic
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+#productos {
+    margin: 20px;
+}
+
+.producto {
+    display: inline-block;
+    background-color: violet;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.producto img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #FF689D;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1a66;
+}
+
+footer {
+    background-color: #ff80b3;
+    color: black;
+    padding: 10px 0;
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+}
+
